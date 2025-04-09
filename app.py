@@ -21,9 +21,9 @@ def chat():
     try:
 
         completion = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini",
             messages=[
-                {"role": "developer", "content": prompt}
+                {"role": "user", "content": prompt}
             ],
         )
         print(completion)
