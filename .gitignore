@@ -175,3 +175,4 @@ cython_debug/
 
 # API key file
 apikey.txt
+.idea
